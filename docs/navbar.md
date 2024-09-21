@@ -1,8 +1,8 @@
-* [首页](README.md)
-* [学校介绍](about.md)
-* [课程设置](courses.md)
-* [师资力量](faculty.md)
-* [招生信息](admissions.md)
-* [联系方式](contact.md)
-* [校园活动](activity.md)
+* 欢迎
+  * [首页](README.md)
+  * [反馈](https://taokuangmiddleschool.us.kg/pinglun.html)
+ 
+* [github]
+  *[仓库](https://github.com/txm404/txm4)
+  *[作者](https://github.com/tem404) 
           
