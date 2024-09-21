@@ -3,6 +3,6 @@
   * [反馈](https://taokuangmiddleschool.us.kg/pinglun.html)
  
 * [github]
-  *[仓库](https://github.com/txm404/txm4)
-  *[作者](https://github.com/tem404) 
+  * [仓库](https://github.com/txm404/txm4)
+  * [作者](https://github.com/tem404) 
           
