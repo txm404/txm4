@@ -17,15 +17,19 @@
 
 </head>
 <body>
-<div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="7237a607-7430-4d29-a3d2-140886aa23e8"
-  data-page-id="{{ PAGE_ID }}"
-  data-page-url="{{ PAGE_URL }}"
-  data-page-title="{{ PAGE_TITLE }}"
-></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-<script defer src="https://cusdis.com/js/widget/lang/zh-cn.js"></script>
+<div id="cusdis_thread"></div>
+<script>
+  window.$docsify = {
+    cusdis: {
+      host: 'https://cusdis.com',
+      appId: 'xxxx',
+    },
+  }
+</script>
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script> <!-- docsify核心库 -->
+<script src="https://cusdis.com/js/cusdis.docsify.js"></script> <!-- cusdis核心库 -->
+
+
 
 
 </body>
