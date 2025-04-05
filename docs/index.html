@@ -18,16 +18,8 @@
 </head>
 <body>
   <div id="app">此页面需要JavaScript，请等待几秒钟</div>
-  <script>
-    window.$docsify = {
-      coverpage: 'coverpage.md',
-      loadNavbar: 'navbar.md',
-      loadSidebar: true,
-      scrollToTop: {text: 'top'},
-      search: 'auto',
-      cusdis: {host: 'https://cusdis.com',appId: '7237a607-7430-4d29-a3d2-140886aa23e8',}
-};
-</script>
+
+
 <script src="//lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/docsify/4.12.2/docsify.min.js"></script>
 <script src="//s4.zstatic.net/npm/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
 <script src="https://cusdis.com/js/cusdis.docsify.js"></script>
@@ -41,6 +33,15 @@
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="7237a607-7430-4d29-a3d2-140886aa23e8"
+  data-page-id="{{ PAGE_ID }}"
+  data-page-url="{{ PAGE_URL }}"
+  data-page-title="{{ PAGE_TITLE }}"
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
 
 
 </body>
