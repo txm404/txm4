@@ -20,10 +20,23 @@
   <div id="app">此页面需要JavaScript，请等待几秒钟</div>
 <script>
   window.$docsify = {
+    loadSidebar: true,
+    subMaxLevel: 2,
+    // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
+    loadNavbar: 'navbar.md',
+            // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
+    coverpage: true,
+            // 最大支持渲染的标题层级
+    maxLevel: 5,
+            // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
+    subMaxLevel: 3,
+            // 小屏设备下合并导航栏到侧边栏
+    mergeNavbar: true,
+    auto2top: true,
     cusdis: {
       host: 'https://cusdis.com',
       appId: '7237a607-7430-4d29-a3d2-140886aa23e8',
-    },
+    }
   }
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> <!-- docsify核心库 -->
