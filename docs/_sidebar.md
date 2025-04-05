@@ -1,4 +1,3 @@
-# [桃矿中学](https://school.taokuang.ggff.net)
 * [首页](README)
 * 活动
     * [1-办人民满意的教育](1-办人民满意的教育)
